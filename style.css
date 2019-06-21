@@ -9,12 +9,33 @@ body {
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   
 }
+.sidebar {
+  width: 250px;
+}
 
-h1 {
+
+.pills {
+  padding: 0;
+}
+
+
+.pill {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: .5rem;
+  display: inline-block;
+  margin: .2rem;
+}
+
+.content {
+  width: 800px;
+}
+
+h1, h2 {
   font-family: 'Lato';
   z-index: 7;
   background-color: #fff;
-  font-size: 3rem;
   font-weight: 900;
   margin: 1rem 0;
 }
@@ -30,7 +51,9 @@ h1 {
 }
 
 .container {
-  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
   padding: 2rem;
   margin: 0 auto;
 }
