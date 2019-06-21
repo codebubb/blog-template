@@ -1,0 +1,45 @@
+body {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+
+  /* background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png"); */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+}
+
+h1 {
+  font-family: 'Lato';
+  z-index: 7;
+  background-color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.separator {
+  height: 2px;
+  width: 100%;
+  background-color: #fffdfd;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  content: "";
+  transform: rotate(-.5deg);
+}
+
+.container {
+  max-width: 800px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Lato';
+  line-height: 1.7rem;
+}
+
+p, pre {
+  margin: 3rem 0;
+}
